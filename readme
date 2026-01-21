@@ -1,0 +1,41 @@
+# 🚦 İstanbul Trafik Yoğunluğu Tahmini (AI Solutions for Istanbul Traffic)
+
+İstanbul'da yaşayan herkesin ortak derdi olan **trafik çilesini** veri bilimi ve yapay zeka ile analiz ettiğim projem. 
+
+Bu çalışmada, İstanbul Büyükşehir Belediyesi'nin (İBB) sağladığı trafik verilerini kullanarak, belirli saatlerdeki ve lokasyonlardaki yoğunluğu tahmin eden bir model geliştirdim.
+
+## 🎯 Projenin Amacı
+Sadece "trafik var mı?" sorusuna değil, **"gelecek saatte trafik ne kadar yoğun olacak?"** sorusuna cevap verebilmek ve veri odaklı çözüm önerileri sunmak.
+
+## 🛠️ Neler Yaptım?
+
+Veri seti oldukça karmaşıktı, bu yüzden adım adım ilerledim:
+
+1.  **Veri Keşfi (EDA):** Trafiğin en yoğun olduğu saatleri (Rush Hour) ve günleri görselleştirdim. Hafta içi vs. Hafta sonu farklarını analiz ettim.
+2.  **Öznitelik Mühendisliği (Feature Engineering):** * Tarih verisinden "Saat", "Gün", "Ay" bilgilerini çıkardım.
+    * Resmi tatilleri ve hava durumu etkisini (varsa) veriye ekledim.
+3.  **Modelleme:** Trafik yoğunluğunu tahmin etmek için şu algoritmaları kullandım:
+    * [Buraya Kullandığın Modeli Yaz: Örn: Random Forest Regressor]
+    * [Varsa İkinci Model: Örn: XGBoost veya LSTM]
+
+## 📊 Önemli Bulgular
+
+* **En Yoğun Saatler:** Beklendiği gibi sabah [08:00-09:00] ve akşam [18:00-19:00] arası zirve yapıyor.
+* **En Yoğun Gün:** Verilere göre İstanbul trafiğinin en dayanılamaz olduğu gün: **[Cuma/Pazartesi vb.]**.
+* **Model Başarısı:** Kurduğum model, trafik yoğunluğunu **%[Başarı Oranı]** doğrulukla (veya R2 skoru ile) tahmin edebiliyor.
+
+## 💻 Kullanılan Teknolojiler
+
+* **Python:** Veri analizi ve modelleme.
+* **Pandas & NumPy:** Veri manipülasyonu.
+* **Matplotlib & Seaborn:** Trafik ısı haritaları ve grafikler.
+* **Scikit-Learn:** Makine öğrenmesi modelleri.
+
+## 🚀 Nasıl Çalıştırılır?
+
+Proje bir Kaggle Notebook'u olarak hazırlanmıştır. Kodları ve grafikleri incelemek için aşağıdaki linke tıklayabilirsiniz:
+
+👉 **[Kaggle Notebook Linki](https://www.kaggle.com/code/sametsssx/ai-solutions-for-istanbul-traffic-congestion)**
+
+---
+*Bu proje, akıllı şehirler (smart cities) ve kentsel ulaşım sorunlarına yapay zeka ile çözüm aramak amacıyla geliştirilmiştir.*
