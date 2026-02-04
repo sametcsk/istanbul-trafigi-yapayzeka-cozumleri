@@ -1,5 +1,6 @@
 # 🚦 İstanbul Trafik Yoğunluğu Tahmini (AI Solutions for Istanbul Traffic)
 
+> 👉 **[Tıkla: Projeyi nbviewer'da Aç](https://nbviewer.org/github/sametcsk/istanbul-trafigi-yapayzeka-cozumleri/blob/main/istanbul-trafik-%C3%A7%C3%B6z%C3%BCm-%C3%B6nerileri.ipynb)
 İstanbul'da yaşayan herkesin ortak derdi olan **trafik çilesini** veri bilimi ve yapay zeka ile analiz ettiğim projem. 
 
 Bu çalışmada, İstanbul Büyükşehir Belediyesi'nin (İBB) sağladığı trafik verilerini kullanarak, belirli saatlerdeki ve lokasyonlardaki yoğunluğu tahmin eden bir model geliştirdim.
